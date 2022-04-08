@@ -6,6 +6,7 @@ import "@nomiclabs/hardhat-waffle";
 import "@nomiclabs/hardhat-web3";
 import "@typechain/hardhat";
 import "solidity-coverage";
+import "./tasks/mint.ts"
 
 dotenv.config();
 
